@@ -29,4 +29,5 @@
 html {
   background: var(--background);
   color: var(--default);
+  transition: all 0.3s;
 }
