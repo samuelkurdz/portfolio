@@ -1,7 +1,7 @@
 {
-  "name": "nextjs-typescript-tailwind",
+  "name": "sam-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "portfolio for Samuel Adebayo",
   "main": "index.js",
   "scripts": {
     "dev": "next",
