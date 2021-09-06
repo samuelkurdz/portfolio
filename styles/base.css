@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --color-primary: #3730a3;
+    --color-primary: #7C3AED;
     --default: #1f2937;
     --background: #f5f6f9;
   }
@@ -26,4 +26,13 @@ html {
   background: var(--background);
   color: var(--default);
   transition: all 0.3s;
+}
+
+
+a {
+  @apply text-primary font-semibold text-xl;
+}
+
+svg {
+  color: var(--default);
 }
