@@ -2,9 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .link-color {
-    color: rgb(94 159 255);
+@layer base {
+  :root {
+    --color-primary: #3730a3;
+    --default: #1f2937;
+    --background: #f5f6f9;
+  }
+
+  .dark {
+    --color-primary: #fbbf24;
+    --default: #f9fafb;
+    --background: #151f28;
+  }
+
+  .light {
+    background: white;
   }
 }
 
@@ -12,4 +24,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+  color: var(--default);
 }

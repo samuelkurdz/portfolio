@@ -3,8 +3,8 @@ import useDarkMode from '../utils/useDrakMode';
 function Homepage(): JSX.Element {
   const [colorTheme, setTheme] = useDarkMode();
   return (
-    <h1 className="text-center my-24 font-black tracking-tight text-6xl text-primary dark:text-primary-dark">
-      Our homepage
+    <h1 className="text-center my-5 font-black tracking-tight text-6xl text-primary">
+      Samuel Adebayo
       {colorTheme === 'light' ? (
         <svg
           onClick={() => setTheme('light')}
