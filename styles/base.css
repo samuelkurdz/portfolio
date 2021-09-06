@@ -14,10 +14,6 @@
     --default: #f9fafb;
     --background: #151f28;
   }
-
-  .light {
-    background: white;
-  }
 }
 
 * {
